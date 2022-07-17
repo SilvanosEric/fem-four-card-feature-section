@@ -13,8 +13,11 @@ module.exports = {
         "very-light-gray": "hsl(0, 0%, 98%)",
       },
       fontFamily: {
-        "body": ["Poppins", 'sans-serif']
-      }
+        body: ["Poppins", "sans-serif"],
+      },
+      screens: {
+        sm: "580px",
+      },
     },
   },
   plugins: [],

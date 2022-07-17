@@ -9,9 +9,9 @@
   </head>
   <body class="text-[0.9375rem] font-body bg-very-light-gray">
     <!-- wrapper -->
-    <div class="pt-[5.5rem] px-8 pb-20 outline">
+    <div class="pt-[5.5rem] px-8 pb-20 md:px-28 max-w-7xl mx-auto">
       <header class="text-center">
-        <h1 class="text-2xl text-dark-blue">
+        <h1 class="text-2xl text-dark-blue sm:text-4xl">
           <span class="block font-extralight"
             >Reliable, efficient delivery</span
           >
@@ -22,13 +22,13 @@
       <main class="mt-5 text-grayish-blue">
         <p class="text-center leading-6">
           Our Artificial Intelligence powered tools use millions of project data
-          points to ensure that your project is successful
+          <span class="sm:block">points to ensure that your project is successful</span>
         </p>
 
         <!-- cards container -->
-        <div class="mt-20 flex flex-col gap-6">
+        <div class="mt-20 flex flex-col gap-6 lg:flex-row">
           <!-- left -->
-          <div>
+          <div class="basis-full lg:flex items-center">
             <div class="card">
               <hr class="card__line text-primary-cyan" />
               <h2 class="card__header">Supervisor</h2>
@@ -46,12 +46,13 @@
           </div>
 
           <!-- middle -->
-          <div class="flex flex-col gap-6">
+          <div class="flex flex-col gap-6 basis-full">
             <div class="card">
-              <hr class="card__line text-primary-red">
+              <hr class="card__line text-primary-red" />
               <h2 class="card__header">Team Builder</h2>
               <p class="card__copy">
-                Scans our talent network to create the optimal team for your project
+                Scans our talent network to create the optimal team for your
+                project
               </p>
               <div class="card__figure">
                 <img
@@ -63,7 +64,7 @@
             </div>
 
             <div class="card">
-              <hr class="card__line text-primary-orange">
+              <hr class="card__line text-primary-orange" />
               <h2 class="card__header">Karma</h2>
               <p class="card__copy">
                 Regularly evaluates our talent to ensure quality
@@ -75,9 +76,9 @@
           </div>
 
           <!-- right -->
-          <div>
+          <div class="basis-full lg:flex items-center">
             <div class="card">
-              <hr class="card__line text-primary-blue">
+              <hr class="card__line text-primary-blue" />
               <h2 class="card__header">Calculator</h2>
               <p class="card__copy">
                 Uses data from past projects to provide better delivery

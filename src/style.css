@@ -20,7 +20,7 @@
     top: 0;
     left: 0;
     width: theme("width.full");
-    border: solid .125rem;
+    border: solid 0.125rem;
   }
 
   .card__header {
@@ -30,7 +30,7 @@
   }
 
   .card__copy {
-    font-size: .8rem;
+    font-size: 0.8rem;
     margin-top: theme("margin[1.5]");
     line-height: theme("lineHeight.6");
   }
