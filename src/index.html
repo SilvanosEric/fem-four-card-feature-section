@@ -7,48 +7,93 @@
     <title>Vite App</title>
     <script type="module" defer src="main.js"></script>
   </head>
-  <body class="text-[0.9375rem] font-body">
-    <header>
-      <h1>Reliable, efficient delivery <span>Powered by Technology</span></h1>
-    </header>
-    <main>
-      <p>
-        Our Artificial Intelligence powered tools use millions of project data
-        points to ensure that your project is successful
-      </p>
-      <div>
-        <div>
+  <body class="text-[0.9375rem] font-body bg-very-light-gray">
+    <!-- wrapper -->
+    <div class="pt-[5.5rem] px-8 pb-20 outline">
+      <header class="text-center">
+        <h1 class="text-2xl text-dark-blue">
+          <span class="block font-extralight"
+            >Reliable, efficient delivery</span
+          >
+          <span class="block mt-1 font-semibold">Powered by Technology</span>
+        </h1>
+      </header>
+
+      <main class="mt-5 text-grayish-blue">
+        <p class="text-center leading-6">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+
+        <!-- cards container -->
+        <div class="mt-20 flex flex-col gap-6">
           <!-- left -->
-          <div class="card">
-            <h2>Supervisor</h2>
-            <p>Monitors activity to identify project roadblocks</p>
-            <img src="images/icon-supervisor.svg" alt="" />
+          <div>
+            <div class="card">
+              <hr class="card__line text-primary-cyan" />
+              <h2 class="card__header">Supervisor</h2>
+              <p class="card__copy">
+                Monitors activity to identify project roadblocks
+              </p>
+              <div class="card__figure">
+                <img
+                  class="card__image"
+                  src="images/icon-supervisor.svg"
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
-        </div>
-        <div>
+
           <!-- middle -->
-          <div class="card">
-            <h2>Team Builder</h2>
-            <p>Scans our talent network to create the optimal team</p>
-            <img src="images/icon-team-builder.svg" alt="" />
+          <div class="flex flex-col gap-6">
+            <div class="card">
+              <hr class="card__line text-primary-red">
+              <h2 class="card__header">Team Builder</h2>
+              <p class="card__copy">
+                Scans our talent network to create the optimal team for your project
+              </p>
+              <div class="card__figure">
+                <img
+                  class="card__image"
+                  src="images/icon-team-builder.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="card">
+              <hr class="card__line text-primary-orange">
+              <h2 class="card__header">Karma</h2>
+              <p class="card__copy">
+                Regularly evaluates our talent to ensure quality
+              </p>
+              <div class="card__figure">
+                <img class="card__image" src="images/icon-karma.svg" alt="" />
+              </div>
+            </div>
           </div>
-          <div class="card">
-            <h2>Karma</h2>
-            <p>Regularly evaluates our talent to ensure quality</p>
-            <img src="images/icon-karma.svg" alt="" />
-          </div>
-        </div>
-        <div>
+
           <!-- right -->
-          <div class="card">
-            <h2>Calculator</h2>
-            <p>
-              Uses data from past projects to provide better delivery estimates
-            </p>
-            <img src="images/icon-calculator.svg" alt="" />
+          <div>
+            <div class="card">
+              <hr class="card__line text-primary-blue">
+              <h2 class="card__header">Calculator</h2>
+              <p class="card__copy">
+                Uses data from past projects to provide better delivery
+                estimates
+              </p>
+              <div class="card__figure">
+                <img
+                  class="card__image"
+                  src="images/icon-calculator.svg"
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
+    </div>
   </body>
 </html>
